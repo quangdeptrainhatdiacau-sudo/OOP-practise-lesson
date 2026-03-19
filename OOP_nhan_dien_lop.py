@@ -72,7 +72,7 @@ class TaiKhoan:
         print(f"Số dư hiện tại của tài khoản {self.tenTK} là: {self.soDu} VND.")
 
 
-concho = ConCho("Malphite", "Vàng", "Golden Retriever", "vui vẻ")
+concho = ConCho("CauVang", "Vàng", "Inu", "vui vẻ")
 concho.sua()
 concho.vay_duoi()
 concho.an("Xương")
@@ -83,7 +83,7 @@ oto.tang_toc(100)
 oto.giam_toc(50)
 oto.dam("xe máy")
 
-tk = TaiKhoan("Nguyen Van A", 100123456789, "Techcombank", 1000000)
+tk = TaiKhoan("Nguyen Van B", 100123456789, "Techcombank", 1000000)
 tk.rut_tien(200000)
 tk.gui_tien(500000)
 tk.kiem_tra_so_du()
