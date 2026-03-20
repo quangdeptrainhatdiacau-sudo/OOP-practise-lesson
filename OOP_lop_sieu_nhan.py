@@ -14,4 +14,4 @@ class SieuNhan:
 sieunhanA = SieuNhan("A", "Kiếm", "Xanh")
 sieunhanB = SieuNhan("B", "Khiên", "Đỏ")
 
-print(sieunhanA,"\n",sieunhanB)
+print(sieunhanA,sieunhanB,sep="\n")
