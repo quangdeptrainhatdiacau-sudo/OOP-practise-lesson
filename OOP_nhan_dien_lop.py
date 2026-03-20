@@ -72,7 +72,7 @@ class TaiKhoan:
         print(f"Số dư hiện tại của tài khoản {self.tenTK} là: {self.soDu} VND.")
 
 
-concho = ConCho("CauVang", "Vàng", "Inu", "vui vẻ")
+concho = ConCho("CauVang", "Vàng", "Bông", "vui vẻ")
 concho.sua()
 concho.vay_duoi()
 concho.an("Xương")
