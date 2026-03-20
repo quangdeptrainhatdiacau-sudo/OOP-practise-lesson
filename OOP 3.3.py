@@ -11,7 +11,7 @@ def draw_grid():
     print_row() 
     print(do_ngang * 2 + '+') 
 draw_grid()
-
+#Vẽ hình vuông lớn
 def draw_big_grid():
   ngang= '+ - - - - '
   doc= '|         '
